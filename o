@@ -10,5 +10,3 @@ while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;
 	$stream.Flush()
 };
 $client.Close()
-
-
